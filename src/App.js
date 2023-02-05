@@ -1,6 +1,6 @@
 import "./App.css";
 // import Cards from "./components/cards";
-import addCard from "./components/cardlar";
+import AddCard from "./components/cardlar";
 const cardData = [
   {
     id: 1,
@@ -24,7 +24,7 @@ const cardData = [
 function App() {
   return (
     <div className="App">
-      <addCard  info ={cardData} />
+      <AddCard  info ={cardData} />
     </div>
   );
 }

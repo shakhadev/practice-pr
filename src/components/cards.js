@@ -2,7 +2,7 @@ import React from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 
-const card = (props) => {
+const Card = (props) => {
   return (
     <div className="expense-item ">
       <ExpenseDate dates={props.date}/>
@@ -18,4 +18,4 @@ const card = (props) => {
 
 
 // export default  jjj;
-export default card;
+export default Card;
