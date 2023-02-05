@@ -24,7 +24,7 @@ const cardData = [
 function App() {
   return (
     <div className="App">
-      <addCard  info ={cardData}  />
+      <addCard  info ={cardData} />
     </div>
   );
 }
